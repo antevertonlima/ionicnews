@@ -1,0 +1,8 @@
+<ion-view title="Ionic News">
+    <ion-content padding="true" class="has-header">
+        <ion-list ng-repeat="noticias in news" >
+            <ion-item href="#/noticia/{{ noticias.ID }}">{{ noticias.title }}</ion-item>
+        </ion-list>
+
+    </ion-content>
+</ion-view>

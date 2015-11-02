@@ -1,0 +1,11 @@
+<ion-view title="{{ noticia.title }}">
+    <ion-content padding="true" class="has-header">
+        <img ng-src="{{ noticia.featured_image.attachment_meta.sizes.medium.url }}">
+        <h1>{{ noticia.title }}</h1>
+        <div>
+            <p>
+                {{ noticia.content }}
+            </p>
+        </div>
+    </ion-content>
+</ion-view>
